@@ -1,0 +1,12 @@
+{
+  "name": "Pragati-Portfolio",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "npm --prefix portfolio run dev",
+    "build": "npm --prefix portfolio run build",
+    "start": "npm --prefix portfolio run start",
+    "lint": "npm --prefix portfolio run lint",
+    "deploy": "npm --prefix portfolio run deploy"
+  }
+}
