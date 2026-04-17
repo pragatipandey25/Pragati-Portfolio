@@ -11,7 +11,7 @@ This repository is structured with a root workspace and an app inside the `portf
 - Reusable design blocks such as bento grids, spotlight effects, moving borders, and interactive cards
 - 3D/visual elements using Three.js ecosystem packages
 - Sentry integration files included for client, server, and edge monitoring
-- Ready-to-deploy setup with Vercel script support
+- Ready-to-deploy setup with Netlify support
 
 ## Tech Stack
 
@@ -66,7 +66,7 @@ Run these from repository root:
 - `npm run build` - Build the production bundle
 - `npm run start` - Start production server
 - `npm run lint` - Run lint checks
-- `npm run deploy` - Trigger Vercel production deploy command
+- `npm run deploy` - Trigger Netlify production deploy command
 
 ## Environment Variables
 
@@ -84,13 +84,32 @@ Only define variables you actually use in your deployment setup.
 
 ## Deployment
 
-### Vercel (recommended)
+### Netlify (recommended)
+
+This repo already includes a `netlify.toml` at the root with:
+
+- `base = "portfolio"`
+- `command = "npm run build"`
+- `NODE_VERSION = "20"`
+
+#### Option 1: Deploy from Netlify UI (Git-based)
+
+1. Push this repository to GitHub.
+2. In Netlify, choose **Add new site** -> **Import an existing project**.
+3. Select your repository.
+4. Confirm build settings:
+   - Base directory: `portfolio`
+   - Build command: `npm run build`
+   - Publish directory: leave empty (Next.js runtime is auto-detected)
+5. Click **Deploy site**.
+
+#### Option 2: Deploy from CLI
 
 ```bash
 npm run deploy
 ```
 
-Or connect the GitHub repository to Vercel and set `portfolio` as the project root if required by your Vercel configuration.
+On first run, Netlify CLI will ask you to authenticate and link/create a site.
 
 ## Customization Guide
 
