@@ -74,8 +74,8 @@ export const projects = [
   id: 1,
   title: "IntervixAI - Real-Time AI Voice Interview Platform",
   des: "Built an AI-powered voice interview platform featuring real-time mock interviews, AI-generated questions, voice interactions, and instant personalized feedback.",
-  img: "/p1.svg",
-  iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/vapi.svg", "/gemini.svg"],
+  img: "/IntervixImage.png",
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
   link: "https://intervix-ai.vercel.app/",
 },
   {
@@ -91,7 +91,7 @@ export const projects = [
   title: "TasteNest - Recipe Discovery Platform",
   des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
   img: "/tasteNest.jpeg",
-  iconLists: ["/react.svg", "/vite.svg", "/tail.svg", "/api.svg"],
+  iconLists: [ "/tail.svg", "/ts.svg"],
   link: "https://taste-nest-jet.vercel.app/",
 },
   {
