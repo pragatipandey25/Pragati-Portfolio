@@ -95,13 +95,20 @@ export const projects = [
   link: "https://taste-nest-jet.vercel.app/",
 },
   {
-    id: 4,
-    title: "Ecommerce MERN App",
-    des: "Developed a MERN-based ecommerce application with product management, cart and checkout flow, order handling, and secure user authentication.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  id: 4,
+  title: "CVAnalyzer - AI Resume Screening & Candidate Ranking Platform",
+  des: "Developed a full-stack AI-powered recruitment platform that automates resume parsing, AI-driven candidate screening, ATS compatibility analysis, intelligent candidate ranking, and hiring analytics using Google Gemini AI, enabling employers to identify the best candidates faster.",
+  img: "/TalentLensAI.png",
+  iconLists: [
+    "/react.svg",
+    "/tail.svg",
+    "/node.svg",
+    "/mongodb.svg",
+    "/express.svg",
+    "/gemini.svg"
+  ],
+  link: "https://ai-resume-frontend-mllb.onrender.com/",
+},
 ];
 
 export const testimonials = [
