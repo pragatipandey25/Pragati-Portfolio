@@ -113,7 +113,7 @@ export const projects = [
     id: 5,
     title: "CVAnalyzer - AI Resume Screening & Candidate Ranking Platform",
     des: "Developed a full-stack AI-powered recruitment platform that automates resume parsing, AI-driven candidate screening, ATS compatibility analysis, intelligent candidate ranking, and hiring analytics using Google Gemini AI, enabling employers to identify the best candidates faster.",
-    img: "/TalentLensAI.png",
+    img: "/CVAnalyzerImage.png",
     iconLists: [
       "/react.svg",
       "/tail.svg",
