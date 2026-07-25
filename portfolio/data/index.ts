@@ -70,38 +70,45 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
-    id: 1,
-    title: "Full Stack Real-Time Chat Application",
-    des: "Built a real-time chat platform with instant messaging, online presence, media sharing, and secure authentication for seamless communication.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
-  },
+ {
+  id: 1,
+  title: "IntervixAI - Real-Time AI Voice Interview Platform",
+  des: "Built an AI-powered voice interview platform featuring real-time mock interviews, AI-generated questions, voice interactions, and instant personalized feedback.",
+  img: "/IntervixImage.png",
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  link: "https://intervix-ai.vercel.app/",
+},
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "MeetFlow - Video Conferencing App",
+    des: "Simplify your video conferencing experience with MeetFlow. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://meet-flow-sigma.vercel.app/",
   },
+ {
+  id: 3,
+  title: "TasteNest - Recipe Discovery Platform",
+  des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
+  img: "/tasteNest.jpeg",
+  iconLists: [ "/tail.svg", "/ts.svg"],
+  link: "https://taste-nest-jet.vercel.app/",
+},
   {
-    id: 3,
-    title: "AI Photo Editor",
-    des: "Built using Next.js, Fabric.js, Tailwind CSS, ImageKit, and shadcn/ui.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Ecommerce MERN App",
-    des: "Developed a MERN-based ecommerce application with product management, cart and checkout flow, order handling, and secure user authentication.",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
-  },
+  id: 4,
+  title: "CVAnalyzer - AI Resume Screening & Candidate Ranking Platform",
+  des: "Developed a full-stack AI-powered recruitment platform that automates resume parsing, AI-driven candidate screening, ATS compatibility analysis, intelligent candidate ranking, and hiring analytics using Google Gemini AI, enabling employers to identify the best candidates faster.",
+  img: "/TalentLensAI.png",
+  iconLists: [
+    "/react.svg",
+    "/tail.svg",
+    "/node.svg",
+    "/mongodb.svg",
+    "/express.svg",
+    "/gemini.svg"
+  ],
+  link: "https://ai-resume-frontend-mllb.onrender.com/",
+},
 ];
 
 export const testimonials = [
