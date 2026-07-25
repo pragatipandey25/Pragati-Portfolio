@@ -117,6 +117,20 @@ export const projects = [
     link: "https://ai-resume-frontend-mllb.onrender.com/",
   },
   {
+    id: 4,
+    title: "VidTube - Video Streaming Web Application",
+    des: "Developed a full-stack video streaming platform featuring secure video uploads, seamless HD streaming, responsive media playback, and an intuitive user interface, delivering a smooth and engaging content viewing experience.",
+    img: "/VidTubeIamge.png",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/node.svg",
+      "/express.svg",
+      "/mongodb.svg",
+    ],
+    link: "https://pragati-pandey-youtubeclone.netlify.app/",
+  },
+  {
     id: 5,
     title: "TasteNest - Recipe Discovery Platform",
     des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
