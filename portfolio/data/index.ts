@@ -70,14 +70,14 @@ export const gridItems = [
 ];
 
 export const projects = [
- {
-  id: 1,
-  title: "IntervixAI - Real-Time AI Voice Interview Platform",
-  des: "Built an AI-powered voice interview platform featuring real-time mock interviews, AI-generated questions, voice interactions, and instant personalized feedback.",
-  img: "/IntervixImage.png",
-  iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-  link: "https://intervix-ai.vercel.app/",
-},
+  {
+    id: 1,
+    title: "IntervixAI - Real-Time AI Voice Interview Platform",
+    des: "Built an AI-powered voice interview platform featuring real-time mock interviews, AI-generated questions, voice interactions, and instant personalized feedback.",
+    img: "/IntervixImage.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://intervix-ai.vercel.app/",
+  },
   {
     id: 2,
     title: "MeetFlow - Video Conferencing App",
@@ -86,29 +86,44 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://meet-flow-sigma.vercel.app/",
   },
- {
-  id: 3,
-  title: "TasteNest - Recipe Discovery Platform",
-  des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
-  img: "/tasteNest.jpeg",
-  iconLists: [ "/tail.svg", "/ts.svg"],
-  link: "https://taste-nest-jet.vercel.app/",
-},
   {
-  id: 4,
-  title: "CVAnalyzer - AI Resume Screening & Candidate Ranking Platform",
-  des: "Developed a full-stack AI-powered recruitment platform that automates resume parsing, AI-driven candidate screening, ATS compatibility analysis, intelligent candidate ranking, and hiring analytics using Google Gemini AI, enabling employers to identify the best candidates faster.",
-  img: "/CVAnalyzerImage.png",
-  iconLists: [
-    "/react.svg",
-    "/tail.svg",
-    "/node.svg",
-    "/mongodb.svg",
-    "/express.svg",
-    "/gemini.svg"
-  ],
-  link: "https://ai-resume-frontend-mllb.onrender.com/",
-},
+    id: 3,
+    title: "BlinkTalk - Real-Time Chat & Messaging Platform",
+    des: "Developed a full-stack real-time messaging platform featuring instant one-to-one communication, secure JWT authentication, live message delivery, responsive user interface, and seamless user experience using the MERN stack.",
+    img: "/BlinkTalkImage.png",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/node.svg",
+      "/express.svg",
+      "/mongodb.svg",
+      "/socket.svg",
+    ],
+    link: "https://blinktalk-2kro.onrender.com/",
+  },
+  {
+    id: 4,
+    title: "CVAnalyzer - AI Resume Screening & Candidate Ranking Platform",
+    des: "Developed a full-stack AI-powered recruitment platform that automates resume parsing, AI-driven candidate screening, ATS compatibility analysis, intelligent candidate ranking, and hiring analytics using Google Gemini AI, enabling employers to identify the best candidates faster.",
+    img: "/CVAnalyzerImage.png",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/node.svg",
+      "/mongodb.svg",
+      "/express.svg",
+      "/gemini.svg",
+    ],
+    link: "https://ai-resume-frontend-mllb.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "TasteNest - Recipe Discovery Platform",
+    des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
+    img: "/tasteNest.jpeg",
+    iconLists: ["/tail.svg", "/ts.svg"],
+    link: "https://taste-nest-jet.vercel.app/",
+  },
 ];
 
 export const testimonials = [
