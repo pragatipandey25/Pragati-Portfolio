@@ -101,13 +101,20 @@ export const projects = [
     ],
     link: "https://blinktalk-2kro.onrender.com/",
   },
+
   {
     id: 4,
-    title: "TasteNest - Recipe Discovery Platform",
-    des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
-    img: "/tasteNest.jpeg",
-    iconLists: ["/tail.svg", "/ts.svg"],
-    link: "https://taste-nest-jet.vercel.app/",
+    title: "StreamFlix - Full-Stack Video Streaming Platform",
+    des: "Built a MERN-based video streaming platform with secure authentication, video uploads, real-time media streaming, responsive design, and efficient content management, providing a Netflix-inspired viewing experience.",
+    img: "/VidTubeImage.png",
+    iconLists: [
+      "/react.svg",
+      "/tail.svg",
+      "/node.svg",
+      "/express.svg",
+      "/mongodb.svg",
+    ],
+    link: "https://pragati-pandey-youtubeclone.netlify.app/",
   },
   {
     id: 5,
@@ -123,6 +130,14 @@ export const projects = [
       "/gemini.svg",
     ],
     link: "https://ai-resume-frontend-mllb.onrender.com/",
+  },
+  {
+    id: 6,
+    title: "TasteNest - Recipe Discovery Platform",
+    des: "Built a responsive recipe discovery platform with search, category filtering, trending meals, and detailed recipe pages powered by TheMealDB API.",
+    img: "/tasteNest.jpeg",
+    iconLists: ["/tail.svg", "/ts.svg"],
+    link: "https://taste-nest-jet.vercel.app/",
   },
 ];
 
