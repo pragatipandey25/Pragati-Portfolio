@@ -104,9 +104,9 @@ export const projects = [
 
   {
     id: 4,
-    title: "StreamFlix - Full-Stack Video Streaming Platform",
+    title: "Streamify - Full-Stack Video Streaming Platform",
     des: "Built a MERN-based video streaming platform with secure authentication, video uploads, real-time media streaming, responsive design, and efficient content management, providing a Netflix-inspired viewing experience.",
-    img: "/VidTubeImage.png",
+    img: "/Streamify.png",
     iconLists: [
       "/react.svg",
       "/tail.svg",
@@ -114,7 +114,7 @@ export const projects = [
       "/express.svg",
       "/mongodb.svg",
     ],
-    link: "https://pragati-pandey-youtubeclone.netlify.app/",
+    link: "https://streamify-53kkrgyiy-pragatipandey25s-projects.vercel.app/",
   },
   {
     id: 5,
