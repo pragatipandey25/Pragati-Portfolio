@@ -1,110 +1,150 @@
-# 🌐 Pragati Portfolio
+<div align="center">
 
-> A modern, responsive developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS** to showcase my projects, technical skills, and professional experience through engaging animations and interactive UI.
+# ✨ Pragati Portfolio
 
-<p align="center">
-  <img src="./public/banner.png" alt="Portfolio Banner" width="100%">
+### Modern • Interactive • Responsive Developer Portfolio
+
+> A premium developer portfolio built with **Next.js 16**, **React 19**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Three.js** to showcase projects, technical expertise, and professional journey with beautiful animations and immersive user experience.
+
+<p>
+<a href="https://pragati-pandey-portfolio.vercel.app">
+<img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Portfolio-6C63FF?style=for-the-badge"/>
+</a>
+<a href="https://github.com/pragatipandey25/Pragati-Portfolio">
+<img src="https://img.shields.io/github/stars/pragatipandey25/Pragati-Portfolio?style=for-the-badge"/>
+</a>
+<a href="https://github.com/pragatipandey25/Pragati-Portfolio/network/members">
+<img src="https://img.shields.io/github/forks/pragatipandey25/Pragati-Portfolio?style=for-the-badge"/>
+</a>
 </p>
 
+<img src="./public/banner.png" width="100%" alt="Portfolio Banner"/>
+
+</div>
+
+---
+
+## 🔗 Quick Links
+
+- 🌐 **Live Website:** https://pragati-pandey-portfolio.vercel.app
+- 💻 **Repository:** https://github.com/pragatipandey25/Pragati-Portfolio
+
+---
+
+## 🚀 Tech Stack
+
 <p align="center">
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js"/>
-  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js"/>
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,tailwind,nodejs,threejs,git,github,vscode" />
+
 </p>
 
----
-
-## ✨ Features
-
-- 🌟 Modern hero section with interactive animations
-- 💼 Professional project showcase
-- 🚀 Skills and technology highlights
-- 📈 Experience timeline
-- 💬 Testimonials & client section
-- 📱 Fully responsive across all devices
-- 🎨 Smooth UI animations powered by Framer Motion
-- 🌍 Interactive 3D elements using Three.js
-- 📩 Contact section for collaborations
-- ⚡ Optimized performance with Next.js
+| Technology        | Description                |
+| ----------------- | -------------------------- |
+| **Next.js 16**    | React Full Stack Framework |
+| **React 19**      | Component-based UI         |
+| **TypeScript**    | Type Safety                |
+| **Tailwind CSS**  | Utility-first Styling      |
+| **Framer Motion** | Smooth Animations          |
+| **Three.js**      | Interactive 3D Graphics    |
 
 ---
 
-## 🛠️ Tech Stack
+# ✨ Features
 
-| Technology                   | Purpose          |
-| ---------------------------- | ---------------- |
-| Next.js                      | React Framework  |
-| React                        | Frontend Library |
-| TypeScript                   | Type Safety      |
-| Tailwind CSS                 | Styling          |
-| Framer Motion                | Animations       |
-| Three.js / React Three Fiber | 3D Graphics      |
+✅ Beautiful Landing Page
+
+✅ Interactive Hero Section
+
+✅ Smooth Page Animations
+
+✅ Responsive Design
+
+✅ Professional Experience Timeline
+
+✅ Skills Showcase
+
+✅ Featured Projects
+
+✅ Testimonials
+
+✅ Contact Form
+
+✅ SEO Optimized
+
+✅ Fast Performance
+
+✅ Clean Architecture
+
+✅ Dark Theme UI
+
+✅ Modern Glassmorphism Design
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```text
-Portfolio/
+Pragati-Portfolio
+│
 ├── app/
 ├── components/
 ├── data/
+├── hooks/
 ├── lib/
 ├── public/
-├── netlify.toml
+│
 ├── next.config.mjs
 ├── package.json
+├── tailwind.config.ts
 └── README.md
 ```
 
 ---
 
-## ⚙️ Getting Started
+# ⚡ Getting Started
 
-### Clone the repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/pragatipandey25/Pragati-Portfolio.git
 ```
 
-### Navigate to the project
+## Navigate
 
 ```bash
 cd Pragati-Portfolio
 ```
 
-### Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Run the development server
+## Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Open your browser at:
+Open:
 
-```text
+```
 http://localhost:3000
 ```
 
 ---
 
-## 🚀 Production Build
+# 📦 Production
 
-Build the application:
+Create production build
 
 ```bash
 npm run build
 ```
 
-Run the production server:
+Run production
 
 ```bash
 npm run start
@@ -112,23 +152,27 @@ npm run start
 
 ---
 
-## 🎨 Customization
+# 🎨 Customization
 
-- Update portfolio content in `data/index.ts`
-- Modify UI sections inside `components/`
-- Edit global styles in `app/globals.css`
-- Replace project images in `public/`
+You can easily personalize the portfolio.
+
+| File              | Purpose           |
+| ----------------- | ----------------- |
+| `data/`           | Portfolio Content |
+| `components/`     | UI Components     |
+| `public/`         | Images & Assets   |
+| `app/globals.css` | Global Styles     |
 
 ---
 
-## 🚀 Deployment
+# 🚀 Deployment
 
-The project can be deployed on:
+Deploy instantly on
 
-- ▲ Vercel (Recommended)
+- ▲ Vercel _(Recommended)_
 - 🌐 Netlify
 
-Build Command:
+Build command
 
 ```bash
 npm run build
@@ -136,26 +180,84 @@ npm run build
 
 ---
 
-## 👩‍💻 Author
+# 📱 Responsive Design
 
-**Pragati Pandey**
+The portfolio is fully optimized for
 
-- 💼 Full Stack Developer
-- 🌐 Passionate about building scalable web applications
-- 📧 Open to internships, freelance work, and collaborations
+- 💻 Desktop
+- 💼 Laptop
+- 📱 Mobile
+- 📲 Tablet
 
-GitHub: https://github.com/pragatipandey25
+---
+
+# ⚡ Performance
+
+- 🚀 Next.js App Router
+- ⚡ Image Optimization
+- 🎯 Lazy Loading
+- 📈 SEO Friendly
+- 📦 Optimized Bundle
+- ♿ Accessibility Focused
 
 ---
 
-## ⭐ Support
+# 👩‍💻 About Me
 
-If you enjoyed this project, consider giving it a ⭐ on GitHub.
+Hi, I'm **Pragati Pandey** 👋
 
-Your support helps others discover my work and motivates me to build more amazing projects.
+I'm a passionate **Full Stack Developer** who enjoys building scalable web applications with clean architecture, intuitive UI, and modern technologies.
+
+I'm actively exploring
+
+- AI Applications
+- Full Stack Development
+- Modern UI/UX
+- Open Source
+- Cloud Deployment
 
 ---
+
+# 🤝 Connect With Me
 
 <p align="center">
-Made with ❤️ using Next.js, TypeScript, Tailwind CSS & Framer Motion
+
+<a href="https://github.com/pragatipandey25">
+<img src="https://skillicons.dev/icons?i=github" height="45"/>
+</a>
+
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<img src="https://skillicons.dev/icons?i=linkedin" height="45"/>
+</a>
+
+<a href="mailto:YOUR_EMAIL">
+<img src="https://skillicons.dev/icons?i=gmail" height="45"/>
+</a>
+
 </p>
+
+---
+
+# ⭐ Show Your Support
+
+If you found this project useful, please consider
+
+⭐ Star this repository
+
+🍴 Fork it
+
+💬 Share your feedback
+
+Your support motivates me to build more high-quality open-source projects.
+
+---
+
+<div align="center">
+
+### 💙 Thanks for Visiting
+
+_"Crafting seamless digital experiences with creativity, code, and curiosity."_
+
+Made with ❤️ using **Next.js**, **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Three.js**
+
+</div>
